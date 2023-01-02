@@ -17,7 +17,7 @@ basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
 load_dotenv('config.env', override=True)
 
 try:
-    if bool(environ.get('_____REMOVE_THIS_LINE_____')):
+    if bool(environ.get('')):
         log_error('The README.md file there to be read! Exiting now!')
         exit()
 except:
